@@ -23,8 +23,12 @@
     <main>
       <aside><img src="images/logo.png" alt="Bethany's Pie Shop" /></aside>
       <article>
-        <h1>Contact</h1>
-        <p>We are always glad to hear from you!</p>
+        <h1>Contact us</h1>
+        <form action="contact.html" method="POST" enctype="application/x-www-form-urlencoded">
+         Your name: <input type="text" name="customerName"><br/>
+         <input type="hidden" name="source" value="ContactForm">
+         <input type="submit" value="Send">
+        </form>
         <p>
             <a href="mailto:example@bethanyspieshop.com?subject=Interested%20in%20pies">Send us an email</a>
             and let us know how we can help make your occasion special.
