@@ -1,1 +1,1 @@
-# Building Websites With HTML, CSS, and JavaScript: Getting Started
+# Simple HTML, CSS, and JavaScript website of Bethany's Pie Shop.
