@@ -8,6 +8,7 @@
 
 body {
     margin-top: 0px;
+    overflow-x: hidden;
     justify-content: center;
     width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -22,6 +23,10 @@ body {
     display: flex;
     flex-direction: row;
     width: auto;
+}
+
+.logo {
+    margin: 1rem;
 }
 
 /*Top Menu*/
@@ -105,7 +110,7 @@ nav>ul>li a {
 }
 
 .pageTitle{
-    font-size: 1rem;
+    font-size: clamp(1rem, 2.5vw, 2.8rem);
     color:#a593c2;
     margin-left: auto;
     margin-right: auto;
@@ -119,8 +124,18 @@ nav>ul>li a {
     height: auto;
 }
 
+.cheesecakes {
+    text-align: center;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2rem;
+    height: auto;
+}
+
 .bethanyimg {
     max-width: 100%;
+    padding: 2rem;
     margin-left: auto;
     margin-right: auto;
     height: auto;
@@ -128,23 +143,56 @@ nav>ul>li a {
 }
 
 .homeparagraph {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+    background-color: white;
+    border-radius: 12px;
+}
+
+.homeparagraph h2, 
+.homeparagraph p {
+    text-align: center;
+    padding: 1rem;
 }
 /*Pie Rows*/
 
-.main{
+.main {
     display: flex;
-    margin: 1rem 0;
+    margin: 0;
     flex-direction: column;
     flex-basis: 70%;
-    overflow-x: hidden;
+}
+
+.table {
+    width: 100%;
+    border: 1px solid black;
+    background-color: white;
+    border-collapse: collapse; 
+    padding: 1rem;
+    border-spacing: 5px;
+}
+
+.table caption {
+    font-size: clamp(1rem, 2.5vw, 2rem);
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: white;
+}
+
+.seasonal-pies {
+    text-align: center;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
 }
 
 .pieRow{
     display: flex;
     flex-direction: row;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
     flex-wrap: wrap;
     align-items: center;
     background-color: #fff;
@@ -154,6 +202,7 @@ nav>ul>li a {
 
 .pieRow h5, .pieRow p{
     margin: 0;
+    font-size: clamp(0.8rem, 2.5vw, 1.2rem);
 }
 
 .pieRow > div{
@@ -163,6 +212,7 @@ nav>ul>li a {
 
 .pieRow > small{
     flex-shrink: 3;
+    font-size: clamp(0.7rem, 2.5vw, 1.2rem);
 }
 
 .pieGallery{
@@ -180,16 +230,16 @@ nav>ul>li a {
 .pieCard{
     display: flex;
     flex-direction: row;
-    margin-bottom: 10px;
+    margin-bottom: 0.5rem;
     flex-wrap: wrap;
     align-items: center;
     background-color: #fff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
-    padding-right: .5rem;
 }
 
 .pieCard h5, .pieCard p{
-    margin: .3rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .pieCard > img{
@@ -207,14 +257,20 @@ nav>ul>li a {
 #promos{
     align-self: center;
     background-color: #fff;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
-    border-radius: 25px;
+    border-radius: 12px;
+    overflow: visible;
 }
 
-#promos > h3{
+#promos h3, 
+#promos h4,
+#promos p {
     margin: 0;
+    padding-top: 0.5rem;
+    text-align: center;
 }
 
 .cardRow{
@@ -246,7 +302,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 1rem;
+    margin: 1rem;
 }
 
 footer > p, footer > address{
