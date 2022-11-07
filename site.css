@@ -147,7 +147,7 @@ nav>ul>li a {
 .homeparagraph {
     margin: 1rem;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
-    background-color: white;
+    background-color: #b4ddd3;
     border-radius: 12px;
 }
 
@@ -173,6 +173,22 @@ nav>ul>li a {
     border-collapse: collapse; 
     padding: 1rem;
     border-spacing: 5px;
+}
+
+.pieRow:nth-of-type(odd) {
+    background-color: #b4ddd3;
+}
+
+.pieRow:nth-of-type(even) {
+    background-color: #e0d7ef;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #b4ddd3;
+}
+
+tr:nth-of-type(even) {
+    background-color: #e0d7ef;
 }
 
 .table caption {
