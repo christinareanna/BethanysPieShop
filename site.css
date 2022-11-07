@@ -48,7 +48,7 @@ nav>ul {
     justify-content: space-around;
 }
 
-nav>ul>li:nth-child(1){
+nav>ul>li:nth-child(1) {
     flex-grow: 1;
 }
 
@@ -68,12 +68,12 @@ nav>ul>li a {
 
 /*Side Menu*/
 
-.leftmenu ul{
+.leftmenu ul {
     padding-inline-start: 0;
     margin-right: 0;
 }
 
-.leftmenu ul>a>li{
+.leftmenu ul>a>li {
     background-color: #cf4522;
     color: #fff;
     list-style: none;
@@ -83,16 +83,16 @@ nav>ul>li a {
     margin-bottom: 2px;
 }
 
-.leftmenu ul>a>li:hover{
+.leftmenu ul>a>li:hover {
     background-color: #B43110;
 }
 
-.leftmenu ul>a{
+.leftmenu ul>a {
     text-decoration: none;
     color: #fff;
 }
 
-.leftmenu{
+.leftmenu {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -100,7 +100,7 @@ nav>ul>li a {
 
 /*Main Content*/
 
-.mainContent{
+.mainContent {
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -109,15 +109,17 @@ nav>ul>li a {
     margin-right: auto;
 }
 
-.pageTitle{
+.pageTitle {
     font-size: clamp(1rem, 2.5vw, 2.8rem);
     color:#a593c2;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
 
-.centerImage{
+.centerImage {
     /* align-self: flex-end; */
     text-align: center;
     max-width: 100%;
@@ -158,7 +160,7 @@ nav>ul>li a {
 
 .main {
     display: flex;
-    margin: 0;
+    margin-top: 2rem;
     flex-direction: column;
     flex-basis: 70%;
 }
@@ -187,7 +189,7 @@ nav>ul>li a {
     height: auto;
 }
 
-.pieRow{
+.pieRow {
     display: flex;
     flex-direction: row;
     margin-bottom: 1rem;
@@ -200,7 +202,7 @@ nav>ul>li a {
     padding-right: .5rem;
 }
 
-.pieRow h5, .pieRow p{
+.pieRow h5, .pieRow p {
     margin: 0;
     font-size: clamp(0.8rem, 2.5vw, 1.2rem);
 }
@@ -210,12 +212,12 @@ nav>ul>li a {
     padding-left: .5rem;
 }
 
-.pieRow > small{
+.pieRow > small {
     flex-shrink: 3;
     font-size: clamp(0.7rem, 2.5vw, 1.2rem);
 }
 
-.pieGallery{
+.pieGallery {
     display: flex;
     margin: 2rem 0;
     flex-direction: column;
@@ -227,7 +229,7 @@ nav>ul>li a {
     flex-basis: 100%;
 } */
 
-.pieCard{
+.pieCard {
     display: flex;
     flex-direction: row;
     margin-bottom: 0.5rem;
@@ -237,12 +239,12 @@ nav>ul>li a {
     box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
 }
 
-.pieCard h5, .pieCard p{
+.pieCard h5, .pieCard p {
     margin-left: auto;
     margin-right: auto;
 }
 
-.pieCard > img{
+.pieCard > img {
     align-self: center;
 }
 
@@ -254,7 +256,7 @@ nav>ul>li a {
     text-align: center;
 }
 
-#promos{
+#promos {
     align-self: center;
     background-color: #fff;
     margin-left: 1rem;
@@ -273,7 +275,7 @@ nav>ul>li a {
     text-align: center;
 }
 
-.cardRow{
+.cardRow {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -294,6 +296,16 @@ nav>ul>li a {
     left: 0;
     width: 100%;
     height: 100%;
+    padding: 1rem;
+}
+
+.video-paragraph {
+    text-align: center;
+    background-color: white;
+    font-size: clamp(0.7rem, 2.5vw, 1.2rem);
+    padding: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 /*Footer*/
@@ -305,7 +317,7 @@ footer {
     margin: 1rem;
 }
 
-footer > p, footer > address{
+footer > p, footer > address {
     margin: .5rem 0;
 }
 
@@ -313,7 +325,7 @@ footer > p, footer > address{
 
 
 @media screen and (max-width: 768px) {
-    .leftmenu{
+    .leftmenu {
         order: 2;
     }
     .main{
@@ -325,7 +337,7 @@ footer > p, footer > address{
 }
 
 /*Test*/
-.box{
+.box {
     width: 200px;
     height: 100px;
     background-color: red;
