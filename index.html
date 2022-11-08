@@ -2,12 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>Welcome to Bethany's Pie Shop!</title>
+    <title>Home | Bethany's Pie Shop</title>
     <meta name="author" content="Bethany's Pie Shop" />
     <meta name="description" content="Store front for Bethany's Pie Shop" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/png" href="favicon.png" />
     <link rel="stylesheet" type="text/css" href="../site.css" />
+    <link rel="stylesheet" type="text/css" href="../small.css" />
+    <link rel="stylesheet" type="text/css" href="../medium.css" />
+    <link rel="stylesheet" type="text/css" href="../large.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
@@ -75,24 +84,56 @@
           </div>
         </article>
 
-          <section id="promos">
-            <h3 style="font-family: verdana">Our weekly promotions</h3>
-            <h4>Cheese cake</h4>
-            <p>$12.95 - serves 4</p>
-            <img
-              src="images/cheesecakesmall.jpg"
-              class="cheesecakeimg"
-              alt="Cheese cake with strawberry"
-            />
-          </section>
+        <section id="promos">
+          <h3 style="font-family: verdana">Our weekly promotions</h3>
+          <h4>Cheese cake</h4>
+          <p>$12.95 - serves 4</p>
+          <img
+            src="images/cheesecakesmall.jpg"
+            class="cheesecakeimg"
+            alt="Cheese cake with strawberry"
+          />
+        </section>
       </main>
     </div>
 
-    <footer>
-      <p>Our address is</p>
+    <footer class="clearfix">
+      <div class="row limited">
+        <section class="column small-12 medium-6 large-3">
+          <h2>Location</h2>
+          <ul>
+            <li>Bethany's Pie Shop</li>
+            <li>123 Bakery Street</li>
+            <li>Brussels, Belgium</li>
+          </ul>
+        </section>
+        <section class="column small-12 medium-6 large-3">
+          <h2>Company</h2>
+          <ul>
+            <li>Catering</li>
+            <li>Delivery</li>
+            <li>Swag Shop</li>
+            <li>Support</li>
+          </ul>
+        </section>
+        <section class="column small-12 medium-6 large-3">
+          <h2>Social</h2>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+          </ul>
+        </section>
+        <section class="column small-12 medium-6 large-3">
+          <h2>About Us</h2>
+          <img src="images/logo.png" alt="logo">
+          <p>&copy; 2022 &bull; all rights reserved.</p>
+        </section>
+      </div>
+      <!-- <p>Our address is</p>
       <address>Bethany's Pie Shop - Bakery Street 555 Brussels Belgium</address>
       <p><small>&copy; 2020 Bethany's Pie Shop - All rights reserved</small></p>
-      <p>Contact us via <a href="mailto:info@bethanyspieshop.com">email</a></p>
+      <p>Contact us via <a href="mailto:info@bethanyspieshop.com">email</a></p> -->
     </footer>
   </body>
 </html>
