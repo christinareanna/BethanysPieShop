@@ -1,0 +1,7 @@
+[[redirects]]
+  from = "/index.html"
+  to = "/pages/index.html"
+  status = 301
+  force = false
+  query = {path = ":path"}
+  conditions = {Language = ["en"], Country = ["US"], Role = ["admin"]}
