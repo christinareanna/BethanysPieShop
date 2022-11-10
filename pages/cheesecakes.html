@@ -9,10 +9,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" type="text/css" href="../site.css">
+    <link rel="stylesheet" type="text/css" href="../small.css" />
+    <link rel="stylesheet" type="text/css" href="../medium.css" />
+    <link rel="stylesheet" type="text/css" href="../large.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
 </head>
 
 <body>
-    <header id="mainheader">
+    <!-- <header id="mainheader">
         <nav>
             <ul>
                 <li><img src="../images/cake.svg" height="55" /></li>
@@ -21,9 +30,29 @@
                 <li><a href="about.html">About</a></li>
             </ul>
         </nav>
-    </header>
+    </header> -->
+    <header id="classfix">
+        <div class="row limited">
+          <section class="column small-12">
+            <img src="../images/cake.svg" alt="Bethany Logo" />
+            <h1>Bethany's</h1>
+            <h2>Fantastic Pie Shop</h2>
+          </section>
+        </div>
+      </header>
+      <nav class="clearfix">
+        <div class="row limited">
+          <button id="hamburgerBtn">&#9776;</button>
+          <ul id="primaryNav">
+            <li><a href="index.html">Specials</a></li>
+            <li class="active"><a href="cheesecakes.html">Cheese Cakes</a></li>
+            <li><a href="fruitpies.html">Fruit Pies</a></li>
+            <li><a href="#">Swag Shop</a></li>
+          </ul>
+        </div>
+      </nav>
     <div class="mainContent">
-        <aside class="leftmenu">
+        <!-- <aside class="leftmenu">
             <img class="logo" src="../images/logo.png" />
 
             <header>
@@ -35,7 +64,7 @@
                 <a href="fruitpies.html"><li>Fruit pies</li></a>
                 <a href="seasonalpies.html"><li>Seasonal pies</li></a>
             </ul>
-        </aside>
+        </aside> -->
         <main class="main">
             
             <div class="pieRow">
@@ -69,11 +98,46 @@
 
     </div>
 
-    <footer>
+    <footer class="clearfix">
+        <div class="row limited">
+          <section class="column small-12 medium-6 large-3">
+            <h2>Location</h2>
+            <ul>
+              <li>Bethany's Pie Shop</li>
+              <li>123 Bakery Street</li>
+              <li>Brussels, Belgium</li>
+            </ul>
+          </section>
+          <section class="column small-12 medium-6 large-3">
+            <h2>Company</h2>
+            <ul>
+              <li>Catering</li>
+              <li>Delivery</li>
+              <li>Swag Shop</li>
+              <li>Support</li>
+            </ul>
+          </section>
+          <section class="column small-12 medium-6 large-3">
+            <h2>Social</h2>
+            <ul>
+              <li>Facebook</li>
+              <li>Twitter</li>
+              <li>Instagram</li>
+            </ul>
+          </section>
+          <section class="column small-12 medium-6 large-3">
+            <h2>About Us</h2>
+            <img src="../images/logo.png" alt="logo" />
+            <p>&copy; 2022 &bull; all rights reserved.</p>
+          </section>
+        </div>
+      </footer>
+
+    <!-- <footer>
         <p>Our address is </p>
         <address>Bethany's Pie Shop - Bakery Street 555 Brussels Belgium</address>
         <p><small>&copy; 2020 Bethany's Pie Shop - All rights reserved</small></p>
-    </footer>
+    </footer> -->
 
 </body>
 
