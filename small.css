@@ -27,13 +27,12 @@ body {
 
 .column {
     float: left;
-    padding: 0 2vw;
     margin: 0 0 .75rem 0;
 }
-
+/* 
 .column ul {
     padding-left: 3rem;
-}
+} */
 
 .small-12 {
     width: 100%;
@@ -92,7 +91,6 @@ main img {
 
 main h1 {
     color: #9b87b8;
-    font-style: italic;
     margin: .5rem 0 .1rem 0;
     font-size: 2rem;
 }
@@ -134,7 +132,6 @@ header h1, header h2 {
     margin: 0;
     color: white;
     font-weight: 300;
-    font-style: italic;
 }
 
 header h1 {
@@ -152,12 +149,20 @@ header h2 {
 footer {
     background-color: #9b87b8;
     font-size: 1.2rem;
+    text-align: center;
 }
 
 footer h2 {
-    font-style: italic;
     text-transform: uppercase;
-    margin: 1rem 0 0.3rem 0;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+footer ul, footer li {
+    text-align: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 .clearfix:after {
