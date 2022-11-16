@@ -1,9 +1,62 @@
 @media only screen and (min-width: 2560px) {
     .large-3 {
-        width: 25%;
+        width: 33%;
     }
 
+    nav {
+        background-color:#9b87b8;
+    }
+    
     nav ul {
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav li {
+        list-style-type: none;
+    }
+    
+    nav a {
+        display: block;
+        padding: .8rem 0;
+        font-size: 1.8rem;
+        color: #eee;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    nav li.active {
+        background-color: rgba(0,0,0,0.5);
+    }
+    
+    nav a:hover {
+        background-color: rgba(0,0,0,0.2);
+    }
+    
+    nav ul.open {
+        display: block;
+    }
+
+    main h1, main h3 {
+        color: #9b87b8;
+        margin: .5rem 0 .1rem 0;
+    }
+    
+    main h1 {
+        font-size: 3rem;
+    }
+    
+    main h3 {
+        font-size: 2rem;
+    }
+    
+    main p {
+        font-size: 1.6rem;
+        margin: 0 0 .3rem 0;
+    }
+    
+
+    /* nav ul {
         margin-left: 2vw;
     }
 
@@ -13,5 +66,6 @@
 
     nav a {
         padding: .7rem 1rem;
-    }
+        font-size: 2rem;
+    } */
 }

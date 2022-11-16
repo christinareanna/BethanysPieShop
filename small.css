@@ -13,6 +13,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-size: 16px;
     font-weight: 300;
+    overflow-x: hidden;
 }
 
 /* grid rules */
@@ -27,6 +28,7 @@ body {
 
 .column {
     float: left;
+    padding: 0 1rem;
     margin: 0 0 .75rem 0;
 }
 /* 
@@ -37,6 +39,14 @@ body {
 .small-12 {
     width: 100%;
 }
+
+.small-6 {
+    width: 100%;
+}
+
+/* .small-6 h3, .small-6 p {
+    margin: 0.5rem 0;
+} */
 
 button#hamburgerBtn {
     background: none;
@@ -84,15 +94,31 @@ nav ul {
     display: none;
 }
 
+.bethany-image {
+    padding-top: 1rem;
+}
+
 main img {
     width: 100%;
     height: auto;
 }
 
-main h1 {
+main h1, main h3 {
     color: #9b87b8;
     margin: .5rem 0 .1rem 0;
+}
+
+main h1 {
     font-size: 2rem;
+}
+
+main h3 {
+    font-size: 1.2rem;
+}
+
+main p {
+    font-size: 1.2rem;
+    margin: 0 0 .3rem 0;
 }
 
 .labeled {
