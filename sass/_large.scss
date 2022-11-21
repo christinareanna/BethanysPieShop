@@ -1,10 +1,9 @@
-@media only screen and (min-width: 2560px) {
     .large-3 {
         width: 33%;
     }
 
     nav {
-        background-color:#9b87b8;
+        background-color: $secondaryColor;
     }
     
     nav ul {
@@ -38,7 +37,7 @@
     }
 
     main h1, main h3 {
-        color: #9b87b8;
+        color: $primaryColor;
         margin: .5rem 0 .1rem 0;
     }
     
@@ -68,4 +67,3 @@
         padding: .7rem 1rem;
         font-size: 2rem;
     } */
-}

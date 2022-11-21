@@ -58,7 +58,7 @@ button#hamburgerBtn {
 }
 
 nav {
-    background-color:#9b87b8;
+    background-color: $secondaryColor;
 }
 
 nav ul {
@@ -104,7 +104,7 @@ main img {
 }
 
 main h1, main h3 {
-    color: #9b87b8;
+    color: $primaryColor;
     margin: .5rem 0 .1rem 0;
 }
 
@@ -173,7 +173,7 @@ header h2 {
 /* footer rules */
 
 footer {
-    background-color: #9b87b8;
+    background-color: $primaryColor;
     font-size: 1.2rem;
     text-align: center;
 }
